@@ -23,11 +23,11 @@
        id="linearGradient943">
       <stop
          style="stop-color:#b23e01;stop-opacity:1;"
-         offset="0.40000001"
+         offset="0.2019802"
          id="stop939" />
       <stop
          style="stop-color:#a76600;stop-opacity:1;"
-         offset="0.60148513"
+         offset="0.80445546"
          id="stop941" />
     </linearGradient>
     <rect
@@ -41,11 +41,11 @@
        id="linearGradient5371">
       <stop
          style="stop-color:#2548be;stop-opacity:1;"
-         offset="0.40000001"
+         offset="0.20445545"
          id="stop5375" />
       <stop
          style="stop-color:#2596be;stop-opacity:1;"
-         offset="0.60148513"
+         offset="0.8019802"
          id="stop5367" />
     </linearGradient>
     <linearGradient
@@ -101,9 +101,9 @@
      inkscape:deskcolor="#00000e"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.91592425"
-     inkscape:cx="-3.27538"
-     inkscape:cy="229.2766"
+     inkscape:zoom="0.45796213"
+     inkscape:cx="412.69788"
+     inkscape:cy="275.13192"
      inkscape:window-width="2560"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -127,7 +127,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:138.24px;font-family:'Aldo the Apache';-inkscape-font-specification:'Aldo the Apache, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1590);display:inline;fill:#2548be;fill-opacity:1;stroke-width:1.33333;stroke-linejoin:round;paint-order:markers fill stroke"><tspan
          x="304.94531"
          y="238.25255"
-         id="tspan997">CliMAT</tspan></text>
+         id="tspan1691">CliMAT</tspan></text>
     <path
        d="m 641.99416,5187.9015 v -312 l -215,-123 -270,157 -276,-159 6,-314 260,-151 v -257 l -265,-152 v -313 l 280.4279,-159.9114 269.5721,161.9114 v 313 l 213.1885,118 3.8115,315 265,149 263.00004,-145 5,-319 -265.00004,-151 -6,-252 -269,-155 5,-319 263,-148 272.00004,152 v 313 l 216,124 273,-157 270,153 v 320 l -264,151 -6,252 271,154 v 316 l -271,152 -268,-151 -220,126 -6,317 -260.00004,147 z"
        id="path210-6"
@@ -140,6 +140,6 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:138.24px;font-family:'Aldo the Apache';-inkscape-font-specification:'Aldo the Apache, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1590-4);display:inline;fill:#b23e01;fill-opacity:1;stroke-width:1.33333;stroke-linejoin:round;paint-order:markers fill stroke"><tspan
          x="304.94531"
          y="238.25255"
-         id="tspan999">CliMAT</tspan></text>
+         id="tspan1693">CliMAT</tspan></text>
   </g>
 </svg>
