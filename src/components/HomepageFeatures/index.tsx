@@ -28,7 +28,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Adjust to needs and preferences',
+    title: 'Adjust to Needs and Preferences',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>

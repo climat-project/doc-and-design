@@ -4,15 +4,17 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const CLIMAT = 'CLiMAT';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CLiMAT',
+  title: CLIMAT,
   tagline: '',
   url: 'https://climat-project.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // GitHub pages deployment config.
   organizationName: 'climat-project',
@@ -57,14 +59,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'CliMAT',
+        title: CLIMAT,
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {to: 'docs/coming-soon', label: 'Cli docs', position: 'left'},
-          {to: 'docs/coming-soon', label: 'Lib docs', position: 'left'},
+          {to: 'docs/coming-soon', label: 'Cli docs', position: 'left' },
+          {to: 'docs/coming-soon', label: 'Lib docs', position: 'left' },
           {
             type: 'doc',
             docId: 'coming-soon',
@@ -102,7 +104,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CliMAT. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ${CLIMAT}. Built with <a href="https://docusaurus.io/"><img alt="Docusaurus logo" height="13px" src="img/docusaurus.ico" /> Docusaurus</a>.`,
       },
       prism: {
         theme: lightCodeTheme,
