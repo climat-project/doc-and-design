@@ -14,8 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Write complex CLI interfaces in a declarative style.
       </>
     ),
   },
@@ -24,18 +23,16 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Combine many inconsistent CLI tools under a single consistent one.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Adjust to needs and preferences',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Rewrite the CLI interface of a tool for a faster and more user-tailored use.
       </>
     ),
   },
