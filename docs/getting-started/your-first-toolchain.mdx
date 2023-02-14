@@ -1,0 +1,32 @@
+---
+title: Your first toolchain
+---
+
+# Your first toolchain
+
+Let's write a very simple toolchain.
+Start with creating a file named `helloWorld.cli`
+
+```clidsl title=helloWorld.cli
+hello-world(location l: arg) {
+    action "echo Hello World from $(location)"
+}
+```
+
+Install this via
+```bash
+climat install helloWorld.cli
+```
+:::note
+On Linux or other \*NIX systems, you might need to run the installation command from above as super user (eg. sudo npm i -g climat)
+:::
+
+Now your toolchain is ready to use!
+
+```bash title=Console
+hello-world Cluj-Napoca # This will output "Hello World from Cluj-Napoca"
+```
+
+Now, the sky is the only limit!
+
+Check out the CLI Dsl reference to see what you can build with CLiMAT!

@@ -61,7 +61,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: 'docs/getting-started/overview', label: 'Getting started', position: 'left' },
+          {to: 'docs/getting-started/introduction', label: 'Getting started', position: 'left' },
           {to: 'docs/cli-dsl-reference/overview', label: 'CLI Dsl reference', position: 'left' },
           {to: 'docs/coming-soon', label: 'Lib docs', position: 'left' },
           {

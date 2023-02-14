@@ -21,7 +21,9 @@ const sidebars = {
       type: 'category',
       label: 'Getting started',
       items: [
-        'getting-started/overview'
+        'getting-started/introduction',
+        'getting-started/installation',
+        'getting-started/your-first-toolchain',
       ]
     }
   ],
