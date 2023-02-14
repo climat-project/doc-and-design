@@ -27,7 +27,7 @@ sgit {
 ```
 
 This simple script will create a toolchain (a CLI tool that has many capabilities) named `sgit` with 2 subcommands:
- * `acp` which will execute `git add`, `git commit` and `git push`. Takes an optional parameter `amend` which will be passed on to the `git commit` as an `--amend flag, and to the `git push` as the `--force` flag.
+ * `acp` which will execute `git add`, `git commit` and `git push`. Takes an optional parameter `amend` which will be passed on to the `git commit` as an `--amend` flag, and to the `git push` as the `--force` flag.
  * `cf` which will execute `git checkout`, but the passed-in branch is always prefixed with `feature/`.
 
 The generated tool can be used like this
@@ -37,9 +37,11 @@ The generated tool can be used like this
 * `sgit cf myFeature`
 
 
- This is it. Now you have a `git` macro that you can customize and tailor to your needs.
+This is it. Now you have a `git` macro that you can customize and tailor to your needs.
 
- CLiMAT uses a special DSL ([Domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language)) for its scripts that has many more capabilities than what is showcased in the above example
- Learn more here
+:::info
+CLiMAT uses a special DSL ([Domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language)) for its scripts that has many more capabilities than what is showcased in the above example.
+Learn more [here](/docs/cli-dsl-reference/overview).
+:::
 
  Next, we're going to explore how to generate your first toolchain
