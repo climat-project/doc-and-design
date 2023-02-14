@@ -36,10 +36,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -65,14 +61,9 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: 'docs/coming-soon', label: 'Cli docs', position: 'left' },
+          {to: 'docs/getting-started/overview', label: 'Getting started', position: 'left' },
+          {to: 'docs/cli-dsl-reference/overview', label: 'CLI Dsl reference', position: 'left' },
           {to: 'docs/coming-soon', label: 'Lib docs', position: 'left' },
-          {
-            type: 'doc',
-            docId: 'coming-soon',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {
             href: 'https://github.com/climat-project',
             label: 'GitHub',
