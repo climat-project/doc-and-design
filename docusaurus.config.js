@@ -81,28 +81,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {to: 'docs/coming-soon', label: 'Cli docs', position: 'left'},
-              {to: 'docs/coming-soon', label: 'Lib docs', position: 'left'},
-              {
-                label: 'Tutorial',
-                to: '/docs/coming-soon',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/climat-project',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} ${CLIMAT}. Built with <a href="https://docusaurus.io/"><img alt="Docusaurus logo" height="13px" src="img/docusaurus.ico" /> Docusaurus</a>.`,
       },
       prism: {
