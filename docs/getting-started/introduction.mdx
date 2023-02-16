@@ -1,6 +1,7 @@
 ---
 title: Introduction
 ---
+import Example from '../examples/getting-started/introduction/sgit.cli.mdx'
 
 # Introduction
 
@@ -13,18 +14,7 @@ Whether you want to create a new CLI tool, or you want a new CLI interface to an
 ### Example
 Here is a brief example of what CLiMAT can do:
 
-```clidsl title="sgit.cli"
-sgit {
-    children [
-        acp(amend a?: flag) {
-            action "git add . && git commit $(amend:--amend) && git push $(amend:--force)"
-        },
-        cf(branch: arg, force f: flag) {
-            action "git checkout feature/$(branch) $(force:--force)"
-        }
-    ]
-}
-```
+<Example/>
 
 This simple script will create a toolchain (a CLI tool that has many capabilities) named `sgit` with 2 subcommands:
  * `acp` which will execute `git add`, `git commit` and `git push`. Takes an optional parameter `amend` which will be passed on to the `git commit` as an `--amend` flag, and to the `git push` as the `--force` flag.

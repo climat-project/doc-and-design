@@ -1,0 +1,19 @@
+---
+climat_version: 0.0.4
+---
+```clidsl title="toolchain.cli"
+my-toolchain {
+  const my = "My"
+  const dear = "Dear"
+  const constant = "Constant"
+  const value = "Value"
+
+  const my-const = "$(my) $(dear) $(constant) $(value)"
+  
+  children [
+    my-child {
+      action "echo 'Child $(my-const)'"
+    }
+  ]
+}
+```

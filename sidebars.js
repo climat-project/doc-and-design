@@ -25,7 +25,7 @@ const sidebars = {
   cliDsl: [
     'cli-dsl-reference/overview',
     'cli-dsl-reference/toolchain',
-    'cli-dsl-reference/commands-subcommands',
+    'cli-dsl-reference/subcommands',
     'cli-dsl-reference/constants',
     'cli-dsl-reference/parameters',
     'cli-dsl-reference/command-template',

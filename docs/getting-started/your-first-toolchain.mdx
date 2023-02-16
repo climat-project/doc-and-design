@@ -2,23 +2,23 @@
 title: Your first toolchain
 ---
 
+import Example from '../examples/getting-started/your-first-toolchain/hello-world.cli.mdx'
+import Install from '../examples/getting-started/your-first-toolchain/install.sh.mdx'
+
 # Your first toolchain
 
 Let's write a "hello world" toolchain.
-Start with creating a file named `helloWorld.cli`
-
-```clidsl title=helloWorld.cli
-hello-world(location l: arg) {
-    action "echo Hello World from $(location)"
-}
-```
+Start with creating a file named `hello-world.cli`
+<Example/>
 
 Install this via
-```bash
-climat install helloWorld.cli
-```
+<Install/>
+
 :::caution
 On Linux or other \*NIX systems, you might need to run the installation command from above as super user (eg. `sudo climat install helloWorld.cli`)
+
+On Windows systems, it might be necessary to add certain directory to system PATH.
+Follow the installation warnings for more information
 :::
 
 Your first toolchain is ready to use:

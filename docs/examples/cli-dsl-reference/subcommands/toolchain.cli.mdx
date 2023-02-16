@@ -1,0 +1,14 @@
+---
+climat_version: 0.0.4
+---
+```clidsl title="toolchain.cli"
+my-toolchain {
+  action "echo 'Hello'"
+
+  children [                  // <- Declare children
+    child-toolchain {         // <- Child name
+      action: "echo 'Child'"  // <- Child action
+    }
+  ]
+}
+```
