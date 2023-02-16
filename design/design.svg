@@ -195,7 +195,7 @@
        sodipodi:insensitive="true"><tspan
          x="304.94531"
          y="238.25255"
-         id="tspan4245">CliMAT</tspan></text>
+         id="tspan4374">CliMAT</tspan></text>
   </g>
   <g
      id="g483"
@@ -218,12 +218,15 @@
        sodipodi:insensitive="true"><tspan
          x="304.94531"
          y="238.25255"
-         id="tspan4247">CliMAT</tspan></text>
+         id="tspan4376">CliMAT</tspan></text>
   </g>
   <g
      id="PreReleaseTag"
      transform="matrix(-0.05,-0.08660254,-0.08660254,0.05,529.96879,247.45862)"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     inkscape:export-filename=".\PreReleaseTag.svg"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <path
        style="fill:#c20000;fill-opacity:1;stroke:none;stroke-width:10;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect253"
@@ -239,17 +242,17 @@
        sodipodi:insensitive="true" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:408.352px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:11.3431;stroke-linejoin:round;paint-order:markers fill stroke"
-       x="1290.7758"
-       y="-530.28955"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:447.418px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:12.4283;stroke-linejoin:round;paint-order:markers fill stroke"
+       x="1463.6399"
+       y="-447.37131"
        id="text453"
-       transform="matrix(-0.4271723,-0.73988415,-1.0136722,0.58524394,0,0)"
+       transform="matrix(-0.38084128,-0.65963646,-1.1369899,0.65644146,0,0)"
        inkscape:label="PreReleaseTagText"
        sodipodi:insensitive="true"><tspan
          sodipodi:role="line"
          id="tspan451"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:408.352px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:11.3431"
-         x="1290.7758"
-         y="-530.28955">PRE-RELEASE</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:447.418px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:12.4283"
+         x="1463.6399"
+         y="-447.37131">PRE-RELEASE</tspan></text>
   </g>
 </svg>
