@@ -23,8 +23,15 @@ const sidebars = {
     'getting-started/examples',
   ],
   cliDsl: [
-    "cli-dsl-reference/overview",
-    'cli-dsl-reference/features',
+    'cli-dsl-reference/overview',
+    'cli-dsl-reference/toolchain',
+    'cli-dsl-reference/commands-subcommands',
+    'cli-dsl-reference/constants',
+    'cli-dsl-reference/parameters',
+    'cli-dsl-reference/command-template',
+    'cli-dsl-reference/custom-script',
+    'cli-dsl-reference/documenting-toolchains',
+    'cli-dsl-reference/comments',
     {
       type: 'category',
       label: 'Keywords',
