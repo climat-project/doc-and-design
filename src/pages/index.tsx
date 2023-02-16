@@ -13,6 +13,9 @@ function HomepageHeader() {
              alt="Project logo and name"
              height={200}
              src={"/img/logo-name.svg"}/>
+        <img className="pre-release-tag"
+              alt="Pre-Release tag"
+              src={"/img/pre-release-tag.svg"}/>
       </div>
     </header>
   );

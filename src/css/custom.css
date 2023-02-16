@@ -36,3 +36,8 @@
 [data-theme='dark'] .homepage-logo {
   filter: brightness(0%);
 }
+
+.pre-release-tag {
+  height: 50px;
+  transform: rotate(-20deg);
+}

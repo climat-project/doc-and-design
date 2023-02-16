@@ -54,6 +54,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'prerelease',
+        content:
+          '<strong>PRE-RELEASE. Some features might not work and everything is subject to change</strong>',
+        backgroundColor: 'yellow',
+        textColor: 'red',
+        isCloseable: false,
+      },
       navbar: {
         title: CLIMAT,
         logo: {
