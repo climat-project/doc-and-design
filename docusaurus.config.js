@@ -57,8 +57,8 @@ const config = {
       announcementBar: {
         id: 'prerelease',
         content:
-          '<strong>PRE-RELEASE. Some features might not work and everything is subject to change</strong>',
-        backgroundColor: 'yellow',
+          '<strong> ⚠️ PRE-RELEASE: Some features might not work and everything is subject to change ⚠️</strong>',
+        backgroundColor: '#fff28c',
         textColor: 'red',
         isCloseable: false,
       },

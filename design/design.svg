@@ -35,74 +35,6 @@
        apply_with_radius="true"
        only_selected="false"
        hide_knots="false" />
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect336"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1"
-       unit="px"
-       method="auto"
-       mode="F"
-       radius="300"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect218"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1"
-       unit="px"
-       method="auto"
-       mode="F"
-       radius="300"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect4158"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1"
-       unit="px"
-       method="auto"
-       mode="F"
-       radius="300"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect4107"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1"
-       unit="px"
-       method="auto"
-       mode="F"
-       radius="300"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient3256">
@@ -188,12 +120,6 @@
        y="98.817856"
        width="520.33777"
        height="219.25211"
-       id="rect1590-4" />
-    <rect
-       x="304.94571"
-       y="98.817856"
-       width="520.33777"
-       height="219.25211"
        id="rect485" />
     <linearGradient
        inkscape:collect="always"
@@ -217,14 +143,14 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="0.64765625"
-     inkscape:cx="406.07961"
+     inkscape:cx="402.99156"
      inkscape:cy="480.193"
      inkscape:window-width="1247"
      inkscape:window-height="1041"
-     inkscape:window-x="55"
+     inkscape:window-x="62"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g463" />
+     inkscape:current-layer="svg6" />
   <g
      id="g463"
      inkscape:label="Climat"
@@ -246,7 +172,7 @@
        sodipodi:insensitive="true"><tspan
          x="304.94531"
          y="238.25255"
-         id="tspan1523">CliMAT</tspan></text>
+         id="tspan204">CliMAT</tspan></text>
     <g
        id="g537"
        inkscape:label="Pre"
@@ -339,6 +265,6 @@
        sodipodi:insensitive="true"><tspan
          x="304.94531"
          y="238.25255"
-         id="tspan1525">CliMAT</tspan></text>
+         id="tspan206">CliMAT</tspan></text>
   </g>
 </svg>
