@@ -66,7 +66,7 @@ const config = {
         title: CLIMAT,
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo-pre-tag.svg'
         },
         items: [
           {to: 'docs/getting-started/introduction', label: 'Getting started', position: 'left' },

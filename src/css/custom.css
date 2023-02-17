@@ -14,6 +14,7 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  --ifm-navbar-height: 65px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -40,4 +41,9 @@
 .pre-release-tag {
   height: 50px;
   transform: rotate(-20deg);
+}
+
+.navbar__logo img {
+  height: 150%;
+  margin-top: -8px;
 }

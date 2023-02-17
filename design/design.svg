@@ -20,6 +20,57 @@
      id="defs10">
     <inkscape:path-effect
        effect="fillet_chamfer"
+       id="path-effect487"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,18.75,0,1 @ F,0,0,1,0,18.75,0,1 @ F,0,0,1,0,18.75,0,1 @ F,0,0,1,0,18.75,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="25"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect336"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="300"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect218"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1 @ F,0,0,1,0,225,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="300"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
        id="path-effect4158"
        is_visible="true"
        lpeversion="1"
@@ -166,19 +217,19 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="0.64765625"
-     inkscape:cx="264.80097"
-     inkscape:cy="497.17732"
-     inkscape:window-width="2498"
-     inkscape:window-height="1057"
-     inkscape:window-x="54"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
+     inkscape:cx="406.07961"
+     inkscape:cy="480.193"
+     inkscape:window-width="1247"
+     inkscape:window-height="1041"
+     inkscape:window-x="55"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g463" />
   <g
      id="g463"
      inkscape:label="Climat"
-     sodipodi:insensitive="true"
-     transform="matrix(-0.05,-0.08660254,-0.08660254,0.05,511.95421,233.12883)">
+     transform="matrix(-0.05,-0.08660254,-0.08660254,0.05,511.95421,233.12883)"
+     sodipodi:insensitive="true">
     <path
        d="m 2730,3986 v -312 l -215,-123 -270,157 -276,-159 6,-314 260,-151 V 2827 L 1970,2675 V 2362 L 2250.4279,2202.0886 2520,2364 v 313 l 213.1885,118 3.8115,315 265,149 263,-145 5,-319 -265,-151 -6,-252 -269,-155 5,-319 263,-148 272,152 v 313 l 216,124 273,-157 270,153 v 320 l -264,151 -6,252 271,154 v 316 l -271,152 -268,-151 -220,126 -6,317 -260,147 z"
        id="path210"
@@ -195,7 +246,77 @@
        sodipodi:insensitive="true"><tspan
          x="304.94531"
          y="238.25255"
-         id="tspan4374">CliMAT</tspan></text>
+         id="tspan1523">CliMAT</tspan></text>
+    <g
+       id="g537"
+       inkscape:label="Pre"
+       transform="matrix(-7.6923563,-13.323551,-13.323551,7.6923563,13046.697,8498.5043)"
+       sodipodi:insensitive="true"
+       inkscape:export-filename=".\g537.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:#c20000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="path326"
+         width="75.376106"
+         height="43.230236"
+         x="625.2002"
+         y="410.44363"
+         sodipodi:type="rect"
+         inkscape:label="PreTagSprite"
+         inkscape:path-effect="#path-effect487"
+         d="m 643.9502,410.44363 h 37.8761 a 18.75,18.75 45 0 1 18.75,18.75 v 5.73024 a 18.75,18.75 135 0 1 -18.75,18.75 h -37.8761 a 18.75,18.75 45 0 1 -18.75,-18.75 v -5.73024 a 18.75,18.75 135 0 1 18.75,-18.75 z"
+         sodipodi:insensitive="true" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:34.2762px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.952117;stroke-linejoin:round;paint-order:markers fill stroke"
+         x="638.17358"
+         y="442.08972"
+         id="text330"
+         transform="scale(0.99424918,1.0057841)"
+         inkscape:label="PreTagText"
+         sodipodi:insensitive="true"><tspan
+           sodipodi:role="line"
+           id="tspan328"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:34.2762px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.952117"
+           x="638.17358"
+           y="442.08972">PRE</tspan></text>
+    </g>
+    <g
+       id="PreReleaseTag"
+       transform="matrix(0.64074887,0.19535904,-0.19535904,0.64074887,-186.01108,1176.6198)"
+       inkscape:export-filename=".\PreReleaseTag.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       sodipodi:insensitive="true">
+      <path
+         style="fill:#c20000;fill-opacity:1;stroke:none;stroke-width:10;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect253"
+         width="2178.1277"
+         height="835.22192"
+         x="1021.7951"
+         y="-1217.6592"
+         transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,0,0)"
+         inkscape:path-effect="#path-effect5675"
+         d="m 1246.7951,-1217.6592 h 1728.1277 a 225,225 45 0 1 225,225.00002 v 385.22192 a 225,225 135 0 1 -225,225 H 1246.7951 a 225,225 45 0 1 -225,-225 v -385.22192 a 225,225 135 0 1 225,-225.00002 z"
+         sodipodi:type="rect"
+         inkscape:label="PreReleaseTagSprite"
+         sodipodi:insensitive="true" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:447.418px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:12.4283;stroke-linejoin:round;paint-order:markers fill stroke"
+         x="1463.6399"
+         y="-447.37131"
+         id="text453"
+         transform="matrix(-0.38084128,-0.65963646,-1.1369899,0.65644146,0,0)"
+         inkscape:label="PreReleaseTagText"
+         sodipodi:insensitive="true"><tspan
+           sodipodi:role="line"
+           id="tspan451"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:447.418px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:12.4283"
+           x="1463.6399"
+           y="-447.37131">PRE-RELEASE</tspan></text>
+    </g>
   </g>
   <g
      id="g483"
@@ -218,41 +339,6 @@
        sodipodi:insensitive="true"><tspan
          x="304.94531"
          y="238.25255"
-         id="tspan4376">CliMAT</tspan></text>
-  </g>
-  <g
-     id="PreReleaseTag"
-     transform="matrix(-0.05,-0.08660254,-0.08660254,0.05,529.96879,247.45862)"
-     sodipodi:insensitive="true"
-     inkscape:export-filename=".\PreReleaseTag.svg"
-     inkscape:export-xdpi="96"
-     inkscape:export-ydpi="96">
-    <path
-       style="fill:#c20000;fill-opacity:1;stroke:none;stroke-width:10;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       id="rect253"
-       width="2178.1277"
-       height="835.22192"
-       x="1021.7951"
-       y="-1217.6592"
-       transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,0,0)"
-       inkscape:path-effect="#path-effect5675"
-       d="m 1246.7951,-1217.6592 h 1728.1277 a 225,225 45 0 1 225,225.00002 v 385.22192 a 225,225 135 0 1 -225,225 H 1246.7951 a 225,225 45 0 1 -225,-225 v -385.22192 a 225,225 135 0 1 225,-225.00002 z"
-       sodipodi:type="rect"
-       inkscape:label="PreReleaseTagSprite"
-       sodipodi:insensitive="true" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:447.418px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:12.4283;stroke-linejoin:round;paint-order:markers fill stroke"
-       x="1463.6399"
-       y="-447.37131"
-       id="text453"
-       transform="matrix(-0.38084128,-0.65963646,-1.1369899,0.65644146,0,0)"
-       inkscape:label="PreReleaseTagText"
-       sodipodi:insensitive="true"><tspan
-         sodipodi:role="line"
-         id="tspan451"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:447.418px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:12.4283"
-         x="1463.6399"
-         y="-447.37131">PRE-RELEASE</tspan></text>
+         id="tspan1525">CliMAT</tspan></text>
   </g>
 </svg>
