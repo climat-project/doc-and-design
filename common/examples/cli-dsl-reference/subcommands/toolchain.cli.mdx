@@ -1,14 +1,12 @@
 ---
 climat_version: 0.0.4
 ---
-```clidsl title="toolchain.cli"
+```clidsl title="toolchain.cli" {4-6}
 my-toolchain {
   action "echo 'Hello'"
 
-  children [                  // <- Declare children
-    child-toolchain {         // <- Child name
-      action: "echo 'Child'"  // <- Child action
-    }
-  ]
+  sub child-toolchain {   // <- Child name
+    action "echo 'Child'" // <- Child action
+  }
 }
 ```

@@ -10,10 +10,8 @@ my-toolchain {
 
   const my-const = "$(my) $(dear) $(constant) $(value)"
   
-  children [
-    my-child {
-      action "echo 'Child $(my-const)'"
-    }
-  ]
+  sub my-child {
+    action "echo 'Child $(my-const)'"
+  }
 }
 ```

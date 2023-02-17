@@ -5,10 +5,8 @@ climat_version: 0.0.4
 my-toolchain {
   const my-const = "My Dear Constant Value"
   
-  children [
-    my-child {
-      action "echo 'Child $(my-const)'"
-    }
-  ]
+  sub my-child {
+    action "echo 'Child $(my-const)'"
+  }
 }
 ```

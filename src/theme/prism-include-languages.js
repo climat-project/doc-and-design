@@ -29,12 +29,28 @@ export default function prismIncludeLanguages(PrismObject) {
       pattern: /(^|\s)children(^|\s)/,
       alias: 'keyword'
     },
+    'flag': {
+      pattern: /(^|\s)flag(^|\s)/,
+      alias: 'keyword'
+    },
+    'arg': {
+      pattern: /(^|\s)arg(^|\s)/,
+      alias: 'keyword'
+    },
+    'sub': {
+      pattern: /\bsub\b/,
+      alias: 'keyword'
+    },
+    'aliases': {
+      pattern: /\@aliases/,
+      alias: 'builtin'
+    },
+    'alias': {
+      pattern: /\@alias/,
+      alias: 'builtin'
+    },
     'comment': {
       pattern: /\/\/.*|\/\*[\s\S]*?(?:\*\/|$)/,
-      greedy: true
-    },
-    'builtin': {
-      pattern: /\$\(.*\)/,
       greedy: true
     },
     'string': {
