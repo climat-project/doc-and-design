@@ -41,13 +41,17 @@ export default function prismIncludeLanguages(PrismObject) {
       pattern: /\bsub\b/,
       alias: 'keyword'
     },
+    'override_default': {
+      pattern: /\boverride default\b/,
+      alias: 'keyword'
+    },
     'aliases': {
       pattern: /\@aliases/,
-      alias: 'builtin'
+      alias: 'keyword'
     },
     'alias': {
       pattern: /\@alias/,
-      alias: 'builtin'
+      alias: 'keyword'
     },
     'comment': {
       pattern: /\/\/.*|\/\*[\s\S]*?(?:\*\/|$)/,

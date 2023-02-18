@@ -1,8 +1,8 @@
 ```clidsl title=toolchain.cli {3-4}
 my-toolchain {
 
-    @aliases(ct child) // Use @aliases when you want to define one or more aliases
-    @alias(c)          // Use @alias to declare a single alias
+    @aliases(ct child) // Defines one or more aliases
+    @alias(c)          // Defines one alias
     sub child-toolchain {
         action "echo 'Child'"
     }
