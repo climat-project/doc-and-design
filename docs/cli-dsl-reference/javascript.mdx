@@ -2,21 +2,13 @@
 title: JavaScript
 ---
 
+import JavaScript from "/common/examples/cli-dsl-reference/javascript/javascript.cli.mdx"
+
 Besides executing commands in the default shell, you can execute JavaScript
 that runs on the same engine that CLiMAT runs.
 
-```clidsl title=hello-world
+<JavaScript/>
 
-hello-world(location l: arg) {
-
-    action js <
-        console.log("Hello World from a JavaScript environment !");
-        console.log("It seems that you are situated in ", params.location);
-        console.log("Is that correct?");
-    >
-
-}
-```
 ```sh title=Console
 $ hello-world Cluj-Napoca
 Hello World from a JavaScript environment !

@@ -2,6 +2,9 @@
 title: Command template
 ---
 
+import MappingFlags from "/common/examples/cli-dsl-reference/command-template/mapping-flags.cli.mdx"
+import MappingArgs from "/common/examples/cli-dsl-reference/command-template/mapping-args.cli.mdx"
+
 Command templates are used to map the input to any desired command.
 
 # Mapping flags
@@ -10,19 +13,8 @@ Can be done in two ways:
 * Interpolating the string value of flags (i.e. `false` or `true`) into the command string
 * Interpolating or not, a predefined identifier based on the truthness of the flag
 
-```clidsl title=hello-world.cli
-hello-world(goodDay: flag) {
-    sub foo {
-        action "echo Hello World $(goodDay)"
-    }
-    sub bar {
-        action "echo Hello World $(goodDay:today-is-a-good-day)"
-    }
-    sub baz {
-        action "echo Hello World $(!goodDay:today-is-NOT-a-good-day)"
-    }
-}
-```
+<MappingFlags/>
+
 When executing `foo`, the flag `goodDay`'s value will just be interpolated into the string
 
 When executing `bar`, the flag will decide whether the string `today-is-a-good-day`
@@ -43,7 +35,7 @@ $ hello-world --goodDay bar
 Hello World today-is-a-good-day
 
 $ hello-world baz
-Hello World today-is-not-a-good-day
+Hello World today-is-NOT-a-good-day
 
 $ hello-world --goodDay baz
 Hello World
@@ -55,16 +47,8 @@ Similar to flags, mapping args can be done in two ways:
  * Interpolating the value
  * Interpolating with a key prefix
  
-```clidsl title=hello-world.cli
-hello-world(dayOfTheWeek: arg) {
-    sub foo {
-        action "echo Hello World $(goodDay)"
-    }
-    sub bar {
-        action "echo Hello World $(goodDay:--today-is)"
-    }
-}
-```
+<MappingArgs/>
+
 ```bash title=Console
 $ hello-world Tuesday foo
 Hello World Tuesday

@@ -1,0 +1,10 @@
+```clidsl title=mapping-args.cli
+hello-world(dayOfTheWeek: arg) {
+    sub foo {
+        action "echo Hello World $(goodDay)"
+    }
+    sub bar {
+        action "echo Hello World $(goodDay:--today-is)"
+    }
+}
+```

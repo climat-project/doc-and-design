@@ -4,6 +4,11 @@ title: Parameters
 
 import YourFirstToolchain from "/common/examples/getting-started/your-first-toolchain/hello-world.cli.mdx"
 
+import Scope from "/common/examples/cli-dsl-reference/parameters/scope.cli.mdx"
+import Optionals from "/common/examples/cli-dsl-reference/parameters/optionals.cli.mdx"
+import Defaults from "/common/examples/cli-dsl-reference/parameters/defaults.cli.mdx"
+import OverridingDefaults from "/common/examples/cli-dsl-reference/parameters/overriding-defaults.cli.mdx"
+
 # Parameters
 
 Parameters are defined with a function header like syntax. 
@@ -29,15 +34,8 @@ Currently, 2 types are supported:
 The params that you define for a toolchain can be referenced in any
 descendant toolchain.
 
-```clidsl title="hello-world.cli"
-hello-world(location l: arg) {
-    action "echo Hello World from $(location)"
+<Scope/>
 
-    sub child {
-        action "echo Hello Child from $(location)"
-    }
-}
-```
 ```sh title=Console
 $ hello-world Cluj-Napoca
 Hello World from Cluj-Napoca
@@ -56,11 +54,8 @@ If a value is not passed for an optional, it will default to:
 
 They are marked with the question mark (`?`) character at the end of their name:
 
-```clidsl title="hello-world.cli"
-hello-world(location l?: arg) {
-    action "echo Hello World from $(location)"
-}
-```
+<Optionals/>
+
 ```sh title=Console
 $ hello-world 
 Hello World from
@@ -69,11 +64,9 @@ Hello World from
 # Defaults
 
 Defaults are only supported for optional params.
-```clidsl title="hello-world.cli"
-hello-world(location l?: arg = "the other side") {
-    action "echo Hello World from $(location)"
-}
-```
+
+<Defaults/>
+
 ```sh title=Console
 $ hello-world 
 Hello World from the other side
@@ -90,16 +83,9 @@ But you also can't modify the original default value, because they
 make sense for the parent, but not for the child.
 
 Thats when you should override the defaults:
-```clidsl title="hello-world.cli"
-hello-world(location l?: arg = "the other side") {
-    action "echo Hello World from $(location)"
 
-    sub child {
-        override default location = "this side"
-        action "echo Hello Child from $(location)"
-    }
-}
-```
+<OverridingDefaults/>
+
 ```sh title=Console
 $ hello-world
 Hello World from the other side

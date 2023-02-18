@@ -1,0 +1,10 @@
+```clidsl title="overriding-defaults.cli"
+hello-world(location l?: arg = "the other side") {
+    action "echo Hello World from $(location)"
+
+    sub child {
+        override default location = "this side"
+        action "echo Hello Child from $(location)"
+    }
+}
+```
