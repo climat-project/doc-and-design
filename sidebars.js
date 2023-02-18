@@ -32,7 +32,9 @@ const sidebars = {
     'cli-dsl-reference/javascript',
     'cli-dsl-reference/documenting-toolchains',
     'cli-dsl-reference/comments',
-    // {
+    
+    // TODO: write
+    // { 
     //   type: 'category',
     //   label: 'Keywords',
     //   items: [

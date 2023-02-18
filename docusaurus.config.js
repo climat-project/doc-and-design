@@ -71,7 +71,10 @@ const config = {
         items: [
           {to: 'docs/getting-started/introduction', label: 'Getting started', position: 'left' },
           {to: 'docs/cli-dsl-reference/overview', label: 'Cli DSL reference', position: 'left' },
-          {to: 'docs/coming-soon', label: 'Lib docs', position: 'left' },
+
+          // TODO: write
+          //{to: 'docs/coming-soon', label: 'Lib docs', position: 'left' },
+          
           {
             href: 'https://github.com/climat-project',
             label: 'GitHub',
