@@ -32,21 +32,21 @@ const sidebars = {
     'cli-dsl-reference/javascript',
     'cli-dsl-reference/documenting-toolchains',
     'cli-dsl-reference/comments',
-    {
-      type: 'category',
-      label: 'Keywords',
-      items: [
-        'cli-dsl-reference/keywords/overview',
-        'cli-dsl-reference/keywords/action',
-        'cli-dsl-reference/keywords/aliases',
-        'cli-dsl-reference/keywords/arg',
-        'cli-dsl-reference/keywords/children',
-        'cli-dsl-reference/keywords/const',
-        'cli-dsl-reference/keywords/flag',
-        'cli-dsl-reference/keywords/override-default',
-        'cli-dsl-reference/keywords/scope-params',
-      ]
-    }
+    // {
+    //   type: 'category',
+    //   label: 'Keywords',
+    //   items: [
+    //     'cli-dsl-reference/keywords/overview',
+    //     'cli-dsl-reference/keywords/action',
+    //     'cli-dsl-reference/keywords/aliases',
+    //     'cli-dsl-reference/keywords/arg',
+    //     'cli-dsl-reference/keywords/children',
+    //     'cli-dsl-reference/keywords/const',
+    //     'cli-dsl-reference/keywords/flag',
+    //     'cli-dsl-reference/keywords/override-default',
+    //     'cli-dsl-reference/keywords/scope-params',
+    //   ]
+    // }
   ]
    
 };
