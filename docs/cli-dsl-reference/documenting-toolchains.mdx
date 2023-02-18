@@ -2,18 +2,8 @@
 title: Documenting toolchains
 ---
 
+import DocumentingToolchains from "/common/examples/documenting-toolchains.cli.mdx"
+
 You can write documentation for your toolchain in the DSL.
 
-```clidsl title=hello-world.cli
-hello-world {
-
-    """
-    Use foo to do this very useful thing!
-    @param param1 - abc
-    @param param2 - bcd
-    """
-    sub foo(param1: arg, param2: arg) {
-
-    }
-}
-```
+<DocumentingToolchains/>
