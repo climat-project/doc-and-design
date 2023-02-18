@@ -5,11 +5,11 @@ climat_version: 0.0.5
 hello-world {
 
     """
-    Use foo to do this very useful thing!
-    @param param1 - abc
-    @param param2 - bcd
+    Does this very useful thing!
+    @param location - Location from where are you hello-world-in'.
+    @param dayOfWeek - Day of week when you are hello-world-in'.
     """
-    sub foo(param1: arg, param2: arg) {
-
+    sub from(location: arg, dayOfWeek: arg) {
+        action 'echo Hello World from $(location) on this fine $(dayOfWeek)'
     }
 }
