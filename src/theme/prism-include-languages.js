@@ -58,8 +58,8 @@ export default function prismIncludeLanguages(PrismObject) {
       greedy: true
     },
     'doc': {
-      pattern: /(^|[^\\])"""(?:\\.|[^\\"""\r\n])*"""(?!\s*:)/,
-      alias: 'keyword',
+      pattern: /"""[\s\S]*?(?:"""|$)/,
+      alias: 'comment',
     },
     'string': {
       pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,
