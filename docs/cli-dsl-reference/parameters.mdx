@@ -52,13 +52,18 @@ If a value is not passed for an optional, it will default to:
 * empty string in case of an `arg`
 * false in case of a `flag`
 
-They are marked with the question mark (`?`) character at the end of their name:
+They are marked with the question mark (`?`) character at the end of their name.
+When a parameter is optional, it is no longer passed in as a positional argument.
+You will need to specify its name before the value.
 
 <Optionals/>
 
 ```sh title=Console
 $ hello-world 
 Hello World from
+
+$ hello-world --location Cluj-Napoca
+Hello World from Cluj-Napoca
 ```
 
 # Defaults
@@ -75,7 +80,8 @@ $ hello-world Cluj-Napoca
 Hello World from Cluj-Napoca
 ```
 
-# Overriding defaults
+<!-- Overriding defaults is currently not supported by kotlinx.cli library -->
+<!-- # Overriding defaults
 
 Sometimes, when you call a child toolchain, you could need
 other defaults than what is defined in the parent toolchain.
@@ -90,12 +96,12 @@ Thats when you should override the defaults:
 $ hello-world
 Hello World from the other side
 
-$ hello-world Cluj-Napoca
+$ hello-world -l Cluj-Napoca
 Hello World from Cluj-Napoca
 
 $ hello-world child
 Hello Child from this side
 
-$ hello-world Cluj-Napoca child
+$ hello-world -l Cluj-Napoca child
 Hello Child from Cluj-Napoca
-```
+``` -->
