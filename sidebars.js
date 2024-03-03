@@ -20,6 +20,7 @@ const sidebars = {
     'getting-started/introduction',
     'getting-started/installation',
     'getting-started/your-first-toolchain',
+    'getting-started/troubleshooting',
     'getting-started/examples',
   ],
   cliDsl: [
